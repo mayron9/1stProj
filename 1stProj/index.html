@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header style="background-color: #588cbc; padding: 20px; text-align: center;">
+        <h1>Welcome to your uni universe!!</h1>
+        <a hreef="">home</a>
+        <a hreef="">About us</a>
+        <a hreef="">sign in</a>
+        <a hreef="">register</a>
+        <hr>
+    </header>
+    <main style="text-align: center; padding: 20px;">
+        <form action="indes.php" method="POST"></form>
+        <h1 style="color:rgb(51, 122, 157)">Register</h1>
+        <label for="FullName">FullName</label>
+        <input type="text" id="FullName" placeholder="FullName" required><br>
+        
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" required><br>
+        
+        <label for="uniplace">university</label>
+        <select id="uniplace" class="choose" required>
+            <option value="uni1">Uni 1</option>
+            <option value="uni2">Uni 2</option>
+            <option value="uni3">Uni 3</option>
+        </select><br>
+        <label for="uni">University Name:</label>
+        <select id="uni" class="choose" required>
+            <option value="university1">University 1</option>
+            <option value="university2">University 2</option>
+            <option value="university3">University 3</option>
+        </select><br>
+
+        <label for="field">Field of study</label>
+        <select id="field" class="choose" required>
+            <option value="field1">Field 1</option>
+            <option value="field2">Field 2</option>
+            <option value="field3">Field 3</option>
+        </select><br>
+
+        <input type="password" id="password" placeholder="password" min="8" required>
+        <input type="submit"><br>
+    </main>
+</body>
+</html>
